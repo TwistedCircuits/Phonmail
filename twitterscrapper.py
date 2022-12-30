@@ -9,8 +9,8 @@ username = input("What user do you want these tweets to be from: ")
 
 #Twint Config
 c = twint.Config()
-c.email = email
-c.phone = phone_numbers
+c.Email = email
+c.Phone = phone_numbers
 c.Limit = limit
 c.Username = username
 
